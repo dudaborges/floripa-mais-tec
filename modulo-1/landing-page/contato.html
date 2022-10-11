@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-        <h1>Seja Bem-Vindo!</h1>
         <img src="img/logo-armazem.jpg" alt="Logo do Armazém Borges">
         
         <nav>
@@ -21,10 +20,40 @@
                 </li>
             </ul>
         </nav>
+
+        <section>
+            <h1>Formulário de Contato</h1>
+            <p>Preencha os dados abaixo e envie sua mensagem de contato.</p>
+        </section>
     </header>
 
     <main>
+        <form>
+            <fieldset>
+                <legend>Dados de Contato</legend>
 
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="nome" name="nome">
+
+                <br>
+                <br>
+                
+                <label for="nascimento">Data de Nascimento:</label>
+                <br>
+                <input type="date" name="nascimento" id="">
+
+                <br>
+                <br>
+
+                <label for="sex">Sexo:</label>
+                <br>
+                <input type="radio" name="sex">
+                <label for="sex">Feminino</label>
+                <input type="radio" name="sex">
+                <label for="sex">Masculino</label>
+            </fieldset>
+        </form>
     </main>
     
     <footer>
